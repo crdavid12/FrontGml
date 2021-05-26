@@ -1,0 +1,51 @@
+<div class="container mt-4">
+  <div class="row cajaForm">
+
+      <div class="col-4">
+        <form>
+            <div class="form-group align-items-center align-content-center">
+                <label for="" class="titulosForm col-12">Id</label>
+            </div>
+        </form>
+      </div>
+      <div class="col-8">
+          <div>
+              <input type="text" class="form-control" name="" id="idHome1" value="{{resultadoPeticion.id}}" readonly>
+          </div>
+      </div>
+
+      <div class="col-4">
+          <form>
+              <div class="form-group align-items-center align-content-center">
+                  <label for="" class="titulosForm col-12">Nombre</label>
+              </div>
+          </form>
+      </div>
+      <div class="col-8">
+          <div>
+              <input type="text" class="form-control" name="" id="nombreHome1" value="{{resultadoPeticion.nombre}}" readonly>
+          </div>
+      </div>
+
+      <div class="col-4">
+        <form>
+            <div class="form-group align-items-center align-content-center">
+                <label for="" class="titulosForm col-12">Fecha Creacion</label>
+            </div>
+        </form>
+    </div>
+    <div class="col-8">
+        <div>
+            <input type="text" class="form-control" name="" id="fechaCreacion" value="{{resultadoPeticion.fechaCreacion}}" readonly>
+        </div>
+    </div>
+
+      <div class="row" style="margin: 20px;">
+            <div class="col ml-4">
+                <button type="button" class="btn btn-success" [routerLink]="['/home1']">Volver</button>
+            </div>
+
+      </div>
+
+  </div>
+</div>

@@ -69,7 +69,8 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "FrontGml:build:production"
+              "browserTarget": "FrontGml:build:production",
+              "proxyConfig": "src/proxy.conf.json"
             }
           }
         },
